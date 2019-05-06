@@ -1,4 +1,4 @@
-# Timecard_System (Still in progress ~60% complete)
+# Timecard_System (Still in progress ~70% complete)
 Program to keep track of employee time at work. Built for a Raspberry Pi 3 B+ and includes a MariaDB server. The inital reasoning for working on this project was to help keep better records and to further my own learning in object oriented programming and GUI development.
 
 Utilizes Python 3 and MariaDB.
