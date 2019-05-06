@@ -3,6 +3,6 @@ Program to keep track of employee time at work. Built for a Raspberry Pi 3 B+ an
 
 Utilizes Python 3 and MariaDB.
 Imports the tkinter and datetime modules.  
-Tkinter is being used for the GUI.   
+Tkinter is being used for the GUI development.   
 PAGE (http://page.sourceforge.net/) was used to help visually set all the buttons, entrys, etc., which is the reason why each button or label has a large configuration section.  
 Some of the program will not work do to no connection to the database.
