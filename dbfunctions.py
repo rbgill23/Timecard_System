@@ -3,15 +3,15 @@ import mysql.connector as mariadb
 class TimeCardDB(object):
 	def __init__(self):
 		try:
-			self.connect = mariadb.connect(user='gfptime', password='time1923', database='TimeCards')
+			self.connect = mariadb.connect(user='', password='3', database='TimeCards')
 			self.cursor = self.connect.cursor()
 		except:
 			try:
-				self.connect = mariadb.connect(host='192.168.1.114',port ='3306', user='rbg', password='time1923', database='TimeCards')
+				self.connect = mariadb.connect(host='',port ='3306', user='', password='', database='TimeCards')
 				self.cursor = self.connect.cursor()
 			except:
 				try:
-					self.connect = mariadb.connect(host='192.168.1.114',port ='3306', user='rbgSurface', password='time1923', database='TimeCards')
+					self.connect = mariadb.connect(host='',port ='3306', user='', password='', database='TimeCards')
 					self.cursor = self.connect.cursor()
 
 				except mariadb.Error as error:
